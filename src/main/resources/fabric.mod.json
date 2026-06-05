@@ -3,9 +3,9 @@
 	"id": "efficiency-5-maxxing",
 	"version": "${version}",
 	"name": "efficiency-5-maxxing",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "One-and-done server mod: scans all player data (including offline players) on server start and caps any Efficiency enchantment above level 5 back down to Efficiency 5.",
 	"authors": [
-		"Me!"
+		"hughbone"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
