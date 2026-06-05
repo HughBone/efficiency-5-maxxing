@@ -13,21 +13,14 @@
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/efficiency-5-maxxing/icon.png",
-	"environment": "*",
+	"environment": "server",
 	"entrypoints": {
 		"main": [
 			"com.hughbone.Efficiency5Maxxing"
-		],
-		"client": [
-			"com.hughbone.client.Efficiency5MaxxingClient"
 		]
 	},
 	"mixins": [
-		"efficiency-5-maxxing.mixins.json",
-		{
-			"config": "efficiency-5-maxxing.client.mixins.json",
-			"environment": "client"
-		}
+		"efficiency-5-maxxing.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.3",

@@ -15,12 +15,9 @@ repositories {
 }
 
 loom {
-	splitEnvironmentSourceSets()
-
 	mods {
 		"efficiency-5-maxxing" {
 			sourceSet sourceSets.main
-			sourceSet sourceSets.client
 		}
 	}
 
